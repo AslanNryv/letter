@@ -1,0 +1,117 @@
+body{
+    background: rgba(240, 46, 170, 0.1);
+    padding: 50px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+h1{
+
+    font-size: 2em;
+    color: #333; 
+    font-family: 'Helvetica', sans-serif; 
+    font-weight: bold; 
+    color: #ff969f;
+    margin-bottom: 50px; 
+    text-align: center;
+}
+.form {
+    margin: 100px;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+    padding: 30px;
+
+}
+.forbtn{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.input-field {
+    position: relative;
+    width: 250px;
+    height: 44px;
+    line-height: 44px;
+   
+}
+
+label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: black;
+    transition: 0.2s all;
+    cursor: text;
+    
+}
+
+input {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    padding: 0.5rem 0;
+    border-bottom: 2px solid black;
+    box-shadow: none;
+    color: #111;
+    background-color: transparent;
+    
+}
+
+input:invalid {
+    outline: 0;
+
+}
+
+input:focus,
+input:valid {
+    border-color: #ff969f;;
+}
+
+input:focus~label,
+input:valid~label {
+    font-size: 14px;
+    top: -24px;
+    color: #ff969f;
+}
+
+
+
+
+.button-24 {
+    background: #ff969f;
+    border: 1px solid #ff969f;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+}
+
+.button-24:hover,
+.button-24:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: #ff969f;
+}
+
+.button-24:active {
+    opacity: .5;
+}
